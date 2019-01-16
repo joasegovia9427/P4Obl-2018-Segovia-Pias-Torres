@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="P4-COVEN-PiasSegoviaTorres" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="CapaLogica\;CapaGUI\;CapaLogica\H\;CapaLogica\B\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/P4-COVEN-PiasSegoviaTorres" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/P4-COVEN-PiasSegoviaTorres" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="CapaGUI/Constantes.cpp">
+			<Option virtualFolder="CapaGUI/" />
+		</Unit>
+		<Unit filename="CapaGUI/Constantes.h">
+			<Option virtualFolder="CapaGUI/" />
+		</Unit>
+		<Unit filename="CapaGUI/Fecha.cpp">
+			<Option virtualFolder="CapaGUI/" />
+		</Unit>
+		<Unit filename="CapaGUI/Fecha.h">
+			<Option virtualFolder="CapaGUI/" />
+		</Unit>
+		<Unit filename="CapaGUI/String.cpp">
+			<Option virtualFolder="CapaGUI/" />
+		</Unit>
+		<Unit filename="CapaGUI/String.h">
+			<Option virtualFolder="CapaGUI/" />
+		</Unit>
+		<Unit filename="CapaGUI/main.cpp">
+			<Option virtualFolder="CapaGUI/" />
+		</Unit>
+		<Unit filename="CapaGUI/menu.cpp">
+			<Option virtualFolder="CapaGUI/" />
+		</Unit>
+		<Unit filename="CapaGUI/menu.h">
+			<Option virtualFolder="CapaGUI/" />
+		</Unit>
+		<Unit filename="CapaLogica/Bruja.cpp">
+			<Option virtualFolder="CapaLogica/B/" />
+		</Unit>
+		<Unit filename="CapaLogica/Bruja.h">
+			<Option virtualFolder="CapaLogica/B/" />
+		</Unit>
+		<Unit filename="CapaLogica/Brujas.cpp">
+			<Option virtualFolder="CapaLogica/B/" />
+		</Unit>
+		<Unit filename="CapaLogica/Brujas.h">
+			<Option virtualFolder="CapaLogica/B/" />
+		</Unit>
+		<Unit filename="CapaLogica/Comun.cpp">
+			<Option virtualFolder="CapaLogica/B/" />
+		</Unit>
+		<Unit filename="CapaLogica/Comun.h">
+			<Option virtualFolder="CapaLogica/B/" />
+		</Unit>
+		<Unit filename="CapaLogica/Especial.cpp">
+			<Option virtualFolder="CapaLogica/H/" />
+		</Unit>
+		<Unit filename="CapaLogica/Especial.h">
+			<Option virtualFolder="CapaLogica/H/" />
+		</Unit>
+		<Unit filename="CapaLogica/FachadaLogica.cpp" />
+		<Unit filename="CapaLogica/FachadaLogica.h" />
+		<Unit filename="CapaLogica/Hechizo.cpp">
+			<Option virtualFolder="CapaLogica/H/" />
+		</Unit>
+		<Unit filename="CapaLogica/Hechizo.h">
+			<Option virtualFolder="CapaLogica/H/" />
+		</Unit>
+		<Unit filename="CapaLogica/Hechizos.cpp">
+			<Option virtualFolder="CapaLogica/H/" />
+		</Unit>
+		<Unit filename="CapaLogica/Hechizos.h">
+			<Option virtualFolder="CapaLogica/H/" />
+		</Unit>
+		<Unit filename="CapaLogica/IteradorBrujas.cpp">
+			<Option virtualFolder="CapaLogica/B/" />
+		</Unit>
+		<Unit filename="CapaLogica/IteradorBrujas.h">
+			<Option virtualFolder="CapaLogica/B/" />
+		</Unit>
+		<Unit filename="CapaLogica/IteradorHechizos.cpp">
+			<Option virtualFolder="CapaLogica/H/" />
+		</Unit>
+		<Unit filename="CapaLogica/IteradorHechizos.h">
+			<Option virtualFolder="CapaLogica/H/" />
+		</Unit>
+		<Unit filename="CapaLogica/Suprema.cpp">
+			<Option virtualFolder="CapaLogica/B/" />
+		</Unit>
+		<Unit filename="CapaLogica/Suprema.h">
+			<Option virtualFolder="CapaLogica/B/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
